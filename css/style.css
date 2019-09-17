@@ -1,0 +1,10 @@
+tei-head {
+  color: red;
+  font-style: italic;
+}
+tei-body{
+  color:green;
+}
+tei-head:before {
+  content: attr(n) ".";
+}
