@@ -3,7 +3,8 @@ tei-head {
   font-style: italic;
 }
 tei-body{
-  color:green;
+  color: inherit;
+
 }
 tei-head:before {
   content: attr(n) ".";
